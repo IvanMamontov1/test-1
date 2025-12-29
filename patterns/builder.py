@@ -5,7 +5,7 @@ class Pizza:
         self.topping = None
 
     def __str__(self):
-        return f"Pizza({self.dough}, {self.sauce}, {self.topping})"
+        return f"Pizza(dough={self.dough}, sauce={self.sauce}, topping={self.topping})"
 
 
 class PizzaBuilder:
